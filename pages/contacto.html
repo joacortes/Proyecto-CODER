@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="contenedor">
+    <header class="header">
+        <nav class="navbar">
+            <ul class="menulist">
+                <li class="menulist__item"><a class="menulist__link" href="../index.html">Inicio</a></li>
+                <li class="menulist__item"><a class="menulist__link" href="ligas.html">Ligas</a></li>
+                <li class="menulist__item"><a class="menulist__link" href="palmares.html">Palmares</a></li>
+                <li class="menulist__item"><a class="menulist__link" href="tablahistorica.html">Tabla Historica</a></li>
+                <li class="menulist__item activo"><a class="menulist__link" href="contacto.html">Contacto</a></li>
+            </ul>
+            <a class="logo" href="../index.html">
+                <img class="logo__img" src="../img/26bd.png" alt="logo">
+                <h1 class="titulo">wikiFootball</h1>
+            </a>
+        </nav>
+    </header>
+    <main class="contenido">
+        <section id="seccion__uno">
+            <h2 class="titulo">Contacto</h2>
+            <form action="" method="POST" enctype="text/plain">
+                <label class="lblNombre" for="nombre">Nombre </label>
+                <input class="txtNombre" type="text" name="nombre" placeholder="Ingrese su nombre">
+        
+                <label class="lblEmail" for="emails">Email </label>
+                <input class="txtEmail" type="email" name="emails" placeholder="Ingrese su email">
+                
+                <label class="lblPhone" for="telefono">Telefono </label>
+                <input class="txtPhone" type="tel" name="telefono" placeholder="Ingrese su telefono">
+        
+                <label class="lblAsunto" for="asunto">Asunto </label>
+                <input class="txtAsunto" type="text" name="asunto" placeholder="Ingrese el asunto">
+        
+                <label class="lblPais" for="pais">Nacionalidad </label>
+                <select class="comboBoxPais" name="pais">
+                    <option value="ARG">Argentina</option>
+                    <option value="BR">Brasil</option>
+                    <option value="VEN">Venezuela</option>
+                    <option value="PER">Peru</option>
+                    <option value="BOL">Bolivia</option>
+                    <option value="PAR">Paraguay</option>
+                    <option value="UR">Uruguay</option>
+                    <option value="CHI">Chile</option>
+                </select>
+        
+                <label class="lblMensaje" for="mensaje">Mensaje </label>
+                <textarea class="txtMensaje" name="mensaje" cols="30" rows="10" placeholder="Ingrese mensaje"></textarea>
+        
+                <input class="button" type="submit" value="Enviar">
+                <input class="button" type="reset" value="Limpiar">
+            </form>
+        </section>
+    </main>
+    <aside class="sidebar">
+        <h2>Equipos</h2>
+        <div class="imagenes">
+            <div class="img"><img src="../img/boca.png" alt="boca" class="img__escudo"></div>
+            <div class="img"><img src="../img/river.png" alt="river" class="img__escudo"></div>
+            <div class="img"><img src="../img/independiente.png" alt="independiente" class="img__escudo"></div>
+            <div class="img"><img src="../img/racing.png" alt="racing" class="img__escudo"></div>
+            <div class="img"><img src="../img/sanlorenzo.png" alt="sanlorenzo" class="img__escudo"></div>
+            <div class="img"><img src="../img/huracan.png" alt="huracan" class="img__escudo"></div>
+            <div class="img"><img src="../img/velez.png" alt="velez" class="img__escudo"></div>
+            <div class="img"><img src="../img/estudiantes.png" alt="estudiantes" class="img__escudo"></div>
+            <div class="img"><img src="../img/gimnasia.png" alt="gimnasia" class="img__escudo"></div>
+            <div class="img"><img src="../img/rosariocentral.png" alt="rosariocentral" class="img__escudo"></div>
+            <div class="img"><img src="../img/newells.png" alt="newells" class="img__escudo"></div>
+            <div class="img"><img src="../img/lanus.png" alt="lanus" class="img__escudo"></div>
+            <div class="img"><img src="../img/banfield.png" alt="banfield" class="img__escudo"></div>
+            <div class="img"><img src="../img/argentinos.png" alt="argentinos" class="img__escudo"></div>
+            <div class="img"><img src="../img/colon.png" alt="colon" class="img__escudo"></div>
+            <div class="img"><img src="../img/union.png" alt="union" class="img__escudo"></div>
+            <div class="img"><img src="../img/aldosivi.png" alt="aldosivi" class="img__escudo"></div>
+            <div class="img"><img src="../img/defensayjusticia.png" alt="defensa y justicia" class="img__escudo"></div>
+            <div class="img"><img src="../img/atleticotucuman.png" alt="atletico tucuman" class="img__escudo"></div>
+            <div class="img"><img src="../img/centralcordoba.png" alt="central cordoba" class="img__escudo"></div>
+            <div class="img"><img src="../img/platense.png" alt="platense" class="img__escudo"></div>
+            <div class="img"><img src="../img/sarandi.png" alt="arsenal" class="img__escudo"></div>
+            <div class="img"><img src="../img/EscudoPatronato.png" alt="patronato" class="img__escudo"></div>
+            <div class="img"><img src="../img/talleres.png" alt="talleres" class="img__escudo"></div>
+            <div class="img"><img src="../img/sarmiento.png" alt="sarmiento" class="img__escudo"></div>
+            <div class="img"><img src="../img/godoycruz.png" alt="godoycruz" class="img__escudo"></div>
+        </div>
+    </aside>
+    <footer class="footer">
+        <nav class="navbar">
+            <ul class="menulist">
+                <li class="menulist__item">
+                    <a class="menulist__link" href="#">
+                        <img class="instagram__img" src="../img/instagram.png" alt="instagram">
+                    </a>
+                </li>
+                <li class="menulist__item">
+                    <a class="menulist__link" href="#">
+                        <img class="facebook__img" src="../img/facebook.png" alt="facebook">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="copyright">&copy; Copyright - Joaquin Cortes</h3>
+    </footer>
+</body>
+</html>
